@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./popup.css" />
+    <title>Popup</title>
+  </head>
+  <body>
+    <form id="form">
+      <label>
+        <span>Event Name</span>
+        <input id="event" value="example.event" placeholder="example.event" />
+      </label>
+      <label>
+        <span>Argument</span>
+        <input id="arg" placeholder="..." />
+      </label>
+      <button type="submit">Send</button>
+      <button id="clear">Clear</button>
+    </form>
+
+    <ul id="logs"></ul>
+    <script type="module" src="./popup.ts"></script>
+  </body>
+</html>

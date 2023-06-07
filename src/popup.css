@@ -1,0 +1,44 @@
+html,
+body {
+  width: 300px;
+  height: 400px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(36, 36, 36);
+  color: white;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+input {
+  min-width: 0;
+  font-size: large;
+  color: black;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+label > span {
+  font-size: 12px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
