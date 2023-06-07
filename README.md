@@ -1,6 +1,6 @@
-# Event-Based Web Extension Demo
+# Event-Driven Web Extension Demo
 
-This is an example extension that uses `nanoevent` and `mimimatch` to create an event-based framework for chrome extensions. Internally, it uses long-lived port connections provided by the extension API to send events to all active JS contexts of the extension.
+This is an example extension that uses [`nanoevents`](https://www.npmjs.com/package/nanoevents) and [`mimimatch`](https://www.npmjs.com/package/minimatch) to create an event-driven framework for chrome extensions. Internally, it uses long-lived port connections provided by the extension API to send events to all active JS contexts of the extension.
 
 In this extension, there are 3 contexts:
 
