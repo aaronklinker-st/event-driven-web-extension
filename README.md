@@ -10,6 +10,8 @@ In this extension, there are 3 contexts:
 
 The background and content scripts emit `*.tick` events. The popup emits events based on a form, while displaying and logging all the events it receives.
 
+The framework itself is located under [`src/plugins/event-framework`](https://github.com/aaronklinker-st/event-driven-web-extension/tree/main/src/plugins/event-framework)
+
 ## Try it out
 
 ```sh
