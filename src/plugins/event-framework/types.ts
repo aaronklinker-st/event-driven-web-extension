@@ -42,7 +42,7 @@ export type ExpandPattern<TString> = TString extends `${infer T}.${infer U}`
   : TString;
 
 /**
- * Merges `*.*` into `*` recursively.
+ * Merges `*.*` into `*` recursively. Used internally by `ExpandPattern`.
  *
  * @example
  * "a.*.*" -> "a.*"
