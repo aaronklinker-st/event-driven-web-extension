@@ -88,3 +88,7 @@ messaging.emit("tick");
   ```
 
   </details>
+
+  ### Untested
+  
+  - Iframes - I have no idea how iframes will behave, if messages propagate correctly or how the `chrome.runtime.connect` APIs work inside them
